@@ -9,7 +9,7 @@ folder = input("Folder location: ")
 
 _continue = False
 
-# create a function called rename_files
+# main rename func
 
 
 def rename_operation(folder):
@@ -40,6 +40,8 @@ def rename_operation(folder):
                       os.path.join(folder, new_name))
 
 
+# main edit func
+            
 def edit_operation(folder):
     # do you want to remove or add to the file name
     op_ = input("Do you want to (R)emove or (A)dd to the file name?")
